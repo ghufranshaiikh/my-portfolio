@@ -1,10 +1,9 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import Header from "@/app/component/layout/header";
 
 export default function Home() {
   return (
    <div>
-    <h1>hello</h1>
+   <Header/>
    </div>
   )
 }
